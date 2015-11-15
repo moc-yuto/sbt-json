@@ -6,7 +6,7 @@ val filename = "test.json"
 lazy val commonSettings = Seq(
   organization := "com.example",
   version := "0.1.0",
-  scalaVersion := "2.11.7",
+  scalaVersion := "2.11.4",
   scalacOptions ++= Seq("-deprecation", "-unchecked", "-feature", "-Xlint")
 )
 
